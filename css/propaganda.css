@@ -1,0 +1,16 @@
+.propaganda{
+     height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: #141233;
+}
+
+.propaganda__titulo{
+    font-size: 4rem;
+    font-weight: 700;
+    width: 100%;
+    line-height: 5rem;
+    text-align: center;
+    color: #FFFFFF;
+}

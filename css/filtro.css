@@ -1,0 +1,6 @@
+.filtro{
+    background-color: #2673bb;
+    height: 6rem;
+    position: sticky;
+    top: calc(0px + 15vh);
+}

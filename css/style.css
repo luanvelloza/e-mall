@@ -1,0 +1,92 @@
+html{
+  font-size: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  font-size: 1.6rem;
+  margin: 0px;
+}
+/* .nav {
+  background-color: #0e4f8b;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.nav div {
+  padding: 20px;
+}
+.nav1 div {
+  background-color: #2673bb;
+  width: 100%;
+  height: 50px;
+}
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.links a {
+  text-decoration: none;
+  padding: 10px;
+  border: 0.1px solid #cccccc;
+  margin-left: 10px;
+  border-radius: 10px;
+  color: aliceblue;
+}
+.cards {
+  margin-left: 10px;
+  margin-top: 20px;
+  background-color: #f0f4f9;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+
+}
+.area--cards {
+  background-color: #e3ebf3;
+  height: 300px;
+}
+
+
+.subcard {
+  display: grid;
+  grid-template-rows: 50% 27% 20%;
+  row-gap: 1%;
+  width: 150px;
+  height: 240px;
+  margin-left: 2rem;
+}
+
+.Informativos-card{
+  text-align: center;
+
+  
+}
+
+.subcard:first-child{
+  margin-left: 0px;
+}
+.subcard img {
+  width: 150px;
+  height: 120px;
+}
+.subcard button {
+  margin-top: 25px;
+  border: 1px solid #ccc;
+  background-color: #2673bb;
+}
+.divisao {
+  display: flex;
+}
+
+.corpo {
+  flex: 1;
+}
+.corpo1 {
+  flex: 3;
+}
+.subcard button {
+  cursor: pointer;
+}
+ */

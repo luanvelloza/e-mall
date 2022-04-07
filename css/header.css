@@ -1,0 +1,91 @@
+.header{
+    position: fixed;
+    align-items: center;
+    background-color: #093364;
+    display: flex;
+    height: 15vh; /* ou 11rem ou 18vh*/
+    width: 100vw;
+    justify-content: space-around;
+}
+
+.header__logo{
+    color: #FFFFFF;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.header__barra-de-pesquisa{
+    display: flex;
+}
+
+.barra-de-pesquisa__input{
+    border: solid 0.2px #CCCCCC;
+    border-start-start-radius: 0.6rem;
+    border-end-start-radius: 0.6rem;
+    outline: 0;
+    padding: 1rem;
+    width: 30rem;
+}
+
+.barra-de-pesquisa__button{
+    background-color: #0e4f8b;
+    background-image: url("../img/search_white_48dp.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 2.5rem;
+    border: none;
+    border-end-end-radius: 0.6rem;
+    border-start-end-radius: 0.6rem;
+    cursor: pointer;
+    width: 5rem;
+}
+
+.barra-de-pesquisa__button:hover, .barra-de-pesquisa__button:focus  {
+    background-color: #2673bb;
+}
+
+.header__campo-de-login{
+    align-items: center;
+    display: flex;
+}
+
+.campo-de-login__circulo{
+    background-image: url("../img/fotoDeUsuario.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 5rem;
+    border-radius: 100%;
+    height: 5rem;
+    width: 5rem;
+}
+
+.campo-de-login__texto-do-login{
+    color: #FFFFFF;
+    margin-left: 1.5rem;
+    width: 14rem;
+}
+
+.campo-de-login__link{
+    color: #554c97;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.campo-de-login__link:hover, .campo-de-login__link:focus{
+    color: #786bd8;
+}
+
+.header__carrinho-de-compras{
+    background-color: initial;
+    background-image: url("../img/shopping_cart_white_48dp.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 4rem;
+    border: none;
+    cursor: pointer;
+    height: 5rem;
+    width: 5rem;
+}
+.header__carrinho-de-compras:hover, .header__carrinho-de-compras:focus{
+    background-image: url("../img/shopping_cart_green_48dp.svg");
+}
