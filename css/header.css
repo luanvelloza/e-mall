@@ -1,12 +1,13 @@
 .header{
-    position: fixed;
+    position: sticky;
+    top: 0;
     align-items: center;
     background-color: #093364;
     display: flex;
     height: 15vh; /* ou 11rem ou 18vh*/
-    width: 100vw;
     justify-content: space-around;
 }
+
 
 .header__logo{
     color: #FFFFFF;
@@ -89,3 +90,5 @@
 .header__carrinho-de-compras:hover, .header__carrinho-de-compras:focus{
     background-image: url("../img/shopping_cart_green_48dp.svg");
 }
+
+
