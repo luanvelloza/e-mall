@@ -1,5 +1,47 @@
 .filtro{
+    align-items: center;
     background-color: #2673bb;
+    display: flex;
     height: 6rem;
+    justify-content: space-evenly;
     position: sticky;
 }
+
+.filtro__div-campos{
+    border-radius: 0.6rem;
+    border-bottom: solid 0.2rem #FFFFFF;
+}
+
+.filtro__div-campos:hover, .filtro__div-campos:hover .div-campos__button{
+    border-color: #141233;
+    color: #141233;
+}
+
+.div-campos__button{
+    background-color: initial;
+    border: initial;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-size: 2rem;
+    padding: 1rem;
+    width: 25rem;
+    
+}
+
+.div-campos__imagem{
+    background-image:url("/img/expand_more_white_48dp.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 2rem;
+    content: "";
+    display: inline-block;
+    height: 1.2rem; 
+    margin-left: 5rem;
+    width: 1.2rem;
+
+}
+
+.filtro__div-campos:hover .div-campos__imagem{
+    background-image: url("/img/expand_more_purple_48dp.svg");
+}
+
