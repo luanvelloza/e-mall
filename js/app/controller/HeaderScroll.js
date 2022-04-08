@@ -11,7 +11,7 @@ class HeaderScroll{
         this._filtro.style.top = "0"
         let i = 0;
         let e = 0;
-        var lastScrollTop = 0;
+        let lastScrollTop = 0;
 
         window.addEventListener("scroll", () => {
 
