@@ -28,7 +28,7 @@
     
 }
 
-.div-campos__imagem{
+.div-campos__button::after{
     background-image:url("/img/expand_more_white_48dp.svg");
     background-position: center;
     background-repeat: no-repeat;
@@ -41,7 +41,7 @@
 
 }
 
-.filtro__div-campos:hover .div-campos__imagem{
+.filtro__div-campos:hover .div-campos__button::after{
     background-image: url("/img/expand_more_purple_48dp.svg");
 }
 
