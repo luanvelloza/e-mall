@@ -29,7 +29,7 @@
 }
 
 .div-campos__button::after{
-    background-image:url("/img/expand_more_white_48dp.svg");
+    background-image:url("../img/expand_more_white_48dp.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 2rem;
@@ -42,6 +42,6 @@
 }
 
 .filtro__div-campos:hover .div-campos__button::after{
-    background-image: url("/img/expand_more_purple_48dp.svg");
+    background-image: url("../img/expand_more_purple_48dp.svg");
 }
 
